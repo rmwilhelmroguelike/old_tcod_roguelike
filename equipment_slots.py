@@ -1,0 +1,20 @@
+from enum import auto, Enum
+
+class EquipmentSlots(Enum):
+    MAIN_HAND = auto()
+    OFF_HAND = auto()
+    RANGED = auto()
+    BODY = auto()
+    TWO_HAND = auto()
+    NECK = auto()
+    BELT = auto()
+    LRING = auto()
+    RRING = auto()
+    HEAD = auto()
+    CLOAK = auto()
+    EYES = auto()
+    SHIRT = auto()
+    WRISTS = auto()
+    BOOTS = auto()
+    HANDS = auto()
+    MISC = auto()
